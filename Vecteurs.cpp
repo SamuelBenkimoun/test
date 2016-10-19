@@ -1,6 +1,8 @@
 #include "Vecteurs.h"
 #include <iostream>
 
+using namespace std;
+
 Vecteurs::Vecteurs(int n)
 {
   tableau = new float [n];
@@ -23,10 +25,10 @@ float Vecteurs::get_tableau(int i)
 return tableau [i];
 }
 
-/*void Vecteurs::afficher()
+void Vecteurs::afficher()
 {
     for (int i=0; i<taille; i++)
     {
-        cout << get_tableau(i);
+        cout << get_tableau(i)<<endl;
     }
-}*/
+}

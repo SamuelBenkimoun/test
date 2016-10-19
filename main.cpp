@@ -19,8 +19,8 @@ float valeur;
     cin >> valeur;
     tableau1.set_tableau(i,valeur);
 
-    /*cout << "Affichage" << endl;
-    tableau1.afficher();*/
+    cout << "Affichage" << endl;
+    tableau1.afficher();
 
     cout << "Vérifier une valeur du vecteur" << endl;
     cin >> i;

@@ -9,7 +9,7 @@ class Vecteurs
         virtual ~Vecteurs();
         void set_tableau (int i, float valeur);
         float get_tableau (int i);
-       /*id afficher ();*/
+       void afficher ();
 
     protected:
 

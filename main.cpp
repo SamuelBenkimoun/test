@@ -25,7 +25,7 @@ float valeur;
     cout << "Vérifier une valeur du vecteur" << endl;
     cin >> i;
     cout << "La valeur en position "<< i << " est de " << tableau1.get_tableau(i) << endl;
-
+    cout << " je suis la "<< endl;
     return 0;
 
 }

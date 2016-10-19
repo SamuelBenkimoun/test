@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1476871378 source:/home/prof/Documents/TechDev/new_vecteur/Vecteurs.cpp
+	"Vecteurs.h"
+
+1476872911 /home/prof/Documents/TechDev/new_vecteur/Vecteurs.h
+
+1476873113 source:/home/prof/Documents/TechDev/new_vecteur/main.cpp
+	<iostream>
+	"Vecteurs.h"
+
